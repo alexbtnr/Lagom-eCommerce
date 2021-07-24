@@ -1,5 +1,11 @@
 body {
   font-family: "Open Sans Condensed";
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 @import "./homepage";
@@ -7,3 +13,4 @@ body {
 @import "./menu-item";
 @import "./collection-preview";
 @import "./collection-item";
+@import "./header";
